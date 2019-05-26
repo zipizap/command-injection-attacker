@@ -207,7 +207,7 @@ It WOULD work, here's why:
 
  ![Little test](screenshots/win_shellshock.png?raw=true "Little test")
 
-* This behavior was described long time ago, being called the "Windows version" of the famous bash shellshock vulnerability (https://www.thesecurityfactory.be/command-injection-windows.html)
+* This behavior was described long time ago, being called the "Windows version" of the famous bash shellshock vulnerability (https://web.archive.org/web/20190212214038/https://www.thesecurityfactory.be/command-injection-windows.html)
 
 I am still hoping for some undocumented cmd.exe function that will allow to forge `&` by some sort of single expression (or some hidden, undocumented special environmental variables not visible in `env` output). More research is needed.
 
